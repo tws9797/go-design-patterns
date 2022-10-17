@@ -8,7 +8,7 @@ import (
 // The sync.Once will only perform the operation only once. See below code
 var once sync.Once
 
-func getInstance2() *Single {
+func GetInstance2() *Single {
 	if singleInstance == nil {
 		once.Do(func() {
 			fmt.Println("Creating Single Instance Now")
