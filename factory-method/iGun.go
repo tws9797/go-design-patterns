@@ -6,8 +6,8 @@ package factory_method
 // but allows subclasses to alter the type of objects that will be created
 
 type IGun interface {
-	setName(name string)
-	setPower(power int)
-	getName() string
-	getPower() int
+	SetName(name string)
+	SetPower(power int)
+	GetName() string
+	GetPower() int
 }
