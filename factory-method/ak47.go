@@ -1,5 +1,8 @@
 package factory_method
 
+// Concrete class that implements the IGun interface
+// Embed with Gun struct that implements the IGun interface
+
 type Ak47 struct {
 	Gun
 }
